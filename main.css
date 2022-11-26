@@ -56,8 +56,9 @@ body {
 }
 
 .bloque2 {
+    box-sizing: border-box;
     float: right;
-    margin-top: 160px;
+    margin-top: 180px;
     margin-right: 230px ;
 }
 
@@ -77,4 +78,21 @@ body {
     text-align: center;
     margin-top: 3px;
     font-size: 13px;
+}
+
+.catalogo {
+    display: inline-grid;
+    grid-auto-columns: 230px;
+    grid-auto-flow: column;
+    padding-top: 200px;
+    padding-left: 18px;
+    grid-column-gap: 45px;
+}
+.tarjeta {
+    display: grid;
+    text-align: center;
+}
+
+.tarjeta img {
+    padding-left: 60px;
 }
