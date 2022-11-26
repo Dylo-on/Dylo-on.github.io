@@ -3,12 +3,6 @@ body {
     margin: 0px;
 }
 
-.borde-h {
-    padding-top: 63px;
-    border-bottom: 1px solid rgb(231, 231, 231);
-    
-}
-
 .logo {
     position: absolute;
     top: 2%;
@@ -37,4 +31,28 @@ body {
 
 .dropdown:hover .menu {
     display: block;
+}
+
+.jumbotron {
+    margin-top: 65px;
+    border-top: 1px solid rgb(231, 231, 231);
+}
+
+.bloque1 {
+    float: left;
+    padding-top: 70px;
+    padding-left: 200px;
+}
+ .bloque1 p {
+    font-size: 20px;
+    max-width: 300px;
+ }
+.bloque2 {
+    float: right;
+    
+}
+
+.jumbotron h1 {
+    display: inline;
+    font-size: 70px;
 }
