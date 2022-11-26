@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+.borde-h {
+    padding-top: 63px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    
+}
+
+.logo {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    cursor: pointer;
+}
+
+.menu a {
+    display: inline;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    color: #7e7e7e;
+}
+
+.menu {
+    display: none;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.dropdown:hover .menu {
+    display: block;
+}
