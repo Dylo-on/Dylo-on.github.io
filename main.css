@@ -17,10 +17,16 @@ body {
     margin-right: 130px;
     margin-left: 130px;
     cursor: pointer;
+
 }
 
-.menu a:hover {
-    color: #7e7e7e;
+.menu a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: black;
 }
 
 .menu {
@@ -135,7 +141,7 @@ body {
 }
 .cuatro {
     max-width: 450px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
 }
 
 
@@ -153,4 +159,39 @@ body {
 
 .entrada4 h1{
     max-width: 400px;
+}
+
+ .blog {
+    padding-bottom: 0px;
+ }
+
+.qr {
+    float: left;
+    padding-left: 300px;
+    padding-top: 130px;
+}
+
+.qr p {
+    text-align: center;
+}
+
+ .contacto {
+    padding-bottom: 200px;
+    padding-right: 200px;
+    width: 400px;
+    height: 400px;
+    float: right;
+    text-align: center;
+}
+
+fieldset input {
+    width: 300px;
+    margin-top: 10px;
+}
+
+fieldset textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 150px;
 }

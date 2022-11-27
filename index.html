@@ -13,26 +13,28 @@
             <div class="dropdown">
                 <img class="logo" src="./imagenes/logo.png" width="33px" height="33px"/>
                 <div class="menu">
-                    <a>¿Qué es PM?</a>
-                    <a>Servicios</a>
-                    <a>Blog</a>
-                    <a>Contacto</a>
+                    <a href="#pm">¿Qué es PM?</a>
+                    <a href="#services">Servicios</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contacto">Contacto</a>
                 </div>
             </div>
         </nav>
     </header>
-    <section class="jumbotron">
+    <section class="jumbotron" id="pm">
         <div class="bloque1">
             <img class="logoj" src="./imagenes/logo.png" width="90px" height="90px"/>
             <h1>PM</h1>
             <p>Brindamos soporte técnico a tus equipos técnologicos, como lo son consolas de videojuegos, celulares y equipos de cómputo.</p>
         </div>
         <div class="bloque2">
-            <button>Contáctanos</button>
+            <a href="#contacto">
+                <button>Contáctanos</button>
+            </a>
             <p>30% de descuento en tu primer servicio</p>
         </div>
     </section>
-    <section class="catalogo">
+    <section class="catalogo" id="services">
         <div class="tarjeta">
             <img src="./imagenes/venta equipos.png" width="90px" height="90px"/>
             <p>Venta de equipos de cómputo, usado y nuevo.</p>
@@ -54,8 +56,8 @@
             <p>Venta de piezas.</p>
         </div>
     </section>
-</body>
-<section class="blog">
+
+<section class="blog" id="blog">
     <h1 class="tittle">BLOG</h1>
     
     <div class="entrada1 uno">
@@ -85,6 +87,45 @@
         <h1>¿Qué hacer con un equipo mojado?</h1>
         <p>Te recomendamos acudir a nuestro taller lo más pronto posible, recuerda que sumergirlo en arroz no es buena idea, si el equipo esta encendido apagalo, no lo conectes a corriente, si esta en tus posibilidades retira la batería.</p>
     </div>
-
 </section>
+<div class="qr">
+    <img src="./imagenes/qr.jpg"/ width="180px" height="180px">
+    <p>¡Escaneame!</p>
+</div>
+<form class="contacto" id="contacto">
+    <fieldset>
+        <legend>Contáctanos</legend>
+        <label>Correo</label>
+        <br />
+        <input type="email" placeholder="Escribe tu correo"/>
+        <br />
+        <br />
+        <labe>Nombre(s) & Apellidos</labe>
+        <br />
+        <input type="text" placeholder="Escribe tu nombre"/>
+        <br />
+        <br />
+        <label>Número celular</label>
+        <br />
+        <input type="number" placeholder="Escribe tu numero"/>
+        <br />
+        <br />
+        <label>¿Que tipo de equipo es?</label>
+        <br />
+        <select>
+            <option value="pc">Equipo de cómuputo</option>
+            <option value="celular">Equipo Celular</option>
+            <option value="consola-nextgen">Consola Next Gen</option>
+            <option value="consola-retro">Consola retro</option>
+        </select>
+        <br />
+        <br />
+        <label>Comentarios</label>
+        <br />
+        <textarea placeholder="Comentanos algún dato que creas relevante para el servicio"></textarea>
+        <br />
+        <button>Enviar</button>
+    </fieldset>
+</form>
+</body>
 </html>
