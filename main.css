@@ -97,3 +97,60 @@ body {
     padding-left: 60px;
 }
 
+.blog {
+    padding: 110px 100px;
+    display: block;
+}
+ .blog .tittle {
+    text-align: center;
+    font-size: 70px;
+ }
+
+
+.uno p {
+    max-width: 400px;
+}
+
+.dos p {
+    max-width: 450px;
+}
+
+.tres ul{
+    max-width: 500px;
+}
+.entrada1 {
+    padding-bottom: 100px;
+}
+
+.entrada2 {
+    padding-bottom: 100px;
+}
+
+.entrada3 {
+    padding-bottom: 100px;
+}
+
+.entrada4 {
+    padding-bottom: 200px;
+}
+.cuatro {
+    max-width: 450px;
+    padding-bottom: 200px;
+}
+
+
+.entrada1 h1 {
+    max-width: 400px;
+}
+
+.entrada2 h1 {
+    max-width: 400px;
+}
+
+.entrada3 h1 {
+    max-width: 400px;
+}
+
+.entrada4 h1{
+    max-width: 400px;
+}
