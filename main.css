@@ -94,6 +94,27 @@ body {
     padding-left: 18px;
     grid-column-gap: 45px;
 }
+
+.servicios {
+    display: inline-grid;
+    grid-auto-columns: 230px;
+    grid-auto-flow: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 18px;
+    margin-top: 100px;
+    margin-left: 290px;
+    grid-column-gap: 45px;
+ 
+    text-align: center;
+}
+
+.servicios div {
+    border-radius: 7px 7px 7px 7px;
+    border: 3px solid black ;
+    cursor: pointer;
+}
+
 .tarjeta {
     display: grid;
     text-align: center;
